@@ -1,0 +1,94 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+@import "blocks/main-header"
+@import "blocks/main-skills"
+@import "blocks/main-territories"
+@import "blocks/main-history"
+@import "blocks/main-inventory"
+@import "blocks/main-footer"
+
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $iliya
+	input, textarea
+			border: #666 1px solid
+			outline: none
+			&:focus:required:invalid
+				border-color: red
+			&:required:valid
+				border-color: green
+
+
+a
+	-webkit-transition: all 0.7s ease
+	-moz-transition: all 0.7s ease
+	-o-transition: all 0.7s ease
+	transition: all 0.7s ease
+	color: #4477aa
+	&:hover
+		text-decoration: none
+		-webkit-transition: all 0.7s ease
+		-moz-transition: all 0.7s ease
+		-o-transition: all 0.7s ease
+		transition: all 0.7s ease
+		color: $iliya
+	&:focus
+		color: $iliya
+	&:active
+		color: $iliya
+	
+header
+	padding: 50px 0 50px 0
+
+section
+	padding: 30px 0 30px 0
+	
+.top-block
+	padding: 0
+	width: 230px
+	height: 230px
+	background-color: #333366
+	position: absolute
+
+
+
+
+
+/*--- .main-delivery start ---*/
+
+
+
+
+
+
+/*--- .main-delivery end ---*/
+
+
+
+
+
+
+
+
+
+
+@import "media" // Always at the end
