@@ -1,0 +1,56 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+	// .col-lg-five
+	// 	width: 20%
+	// 	float: left
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+	// .col-md-five
+	// 	width: 20%
+	// 	float: left
+
+//Medium: ≥768px
++media-breakpoint-down(md)
+	// .col-sm-five 
+	// 	width: 20%
+	// 	float: left
+
+//Small: ≥576px
++media-breakpoint-down(sm)
+
+//Extra small: >0
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+	.col-sm-five 
+		width: 20%
+		float: left
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+	.col-md-five
+		width: 20%
+		float: left
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)
+	.col-lg-five
+		width: 20%
+		float: left
