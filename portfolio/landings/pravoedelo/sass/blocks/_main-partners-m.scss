@@ -1,0 +1,49 @@
+@media only screen and (max-width : 768px) {
+
+	
+	.main-partners .text-testimonial {
+		font-size: 14px;
+	} 
+
+
+
+	.main-partners .owl-my-nav .owl-prev,
+	.main-partners .owl-my-nav .owl-next {
+		font-size: 50px;
+		top: 10% !important;
+	}
+
+
+
+	.main-partners .owl-my-nav .owl-prev {
+		left: 0;
+	}
+
+
+	.main-partners .owl-my-nav .owl-next {
+		right: 10px;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 480px) {
+	
+	.main-partners .owl-my-nav .owl-prev,
+	.main-partners .owl-my-nav .owl-next {
+		top: 22% !important;
+	}
+}
+
+
+
+
+@media only screen and (max-width : 320px) {
+
+	.main-partners .owl-my-nav .owl-prev,
+	.main-partners .owl-my-nav .owl-next {
+		top: 18% !important;
+	}
+	
+}

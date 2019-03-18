@@ -1,0 +1,45 @@
+@media only screen and (max-width : 992px) {
+
+.main-footer .footer-right__phone {
+	font-size: 24px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+	.main-footer .footer-right__phone {	
+		font-size: 22px;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width : 480px) {
+
+	.main-footer .nav-link {
+		padding: .5rem .2rem;
+	}
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+	
+
+	.main-footer .nav-link {
+		padding: .5rem .2rem;
+	}
+
+	.main-footer .footer-right__phone {	
+		font-size: 18px;
+	}
+
+}
