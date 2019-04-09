@@ -39,7 +39,7 @@ $(function() {
 
 $(".eTimer").eTimer({
       etType: 0,
-      etDate: "30.06.2019.0.0",
+      etDate: "30.07.2019.0.0",
       etTitleText: "До окончания акции осталось:",
       etTitleSize: 26,
       etShowSign: 1,
