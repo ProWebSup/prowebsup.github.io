@@ -3,6 +3,18 @@ $(function() {
 	// $('.main-header').height($(window).height());
 
 
+  /*---Resize Height---*/
+  function height_Detect() {
+    $(".main-header").css("height", $(window).height());
+  };
+  height_Detect();
+  $(window).resize(function() {
+    height_Detect();
+  });
+  /*---End Resize Height---*/
+
+
+
 	var $page = $('html, body');
 	$('.top-left .nav a[href*="#"]').click(function() {
 		$page.animate({
@@ -83,7 +95,7 @@ $(function() {
         768 : {
             items: 2,
             margin: 0,
-            stagePadding: 60,
+            stagePadding: 30,
             dots: true,
         },
         992 : {
