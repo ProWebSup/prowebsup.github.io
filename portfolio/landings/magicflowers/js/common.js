@@ -66,6 +66,36 @@ $(".eTimer").eTimer({
       etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0)"
     });
 
+	
+	$(".eTimer").eTimer({
+etType: 0, etDate: "30.06.2019.0.0",
+etTitleText: "До окончания акции осталось:",
+etTitleSize: 20,
+etShowSign: 1,
+etSep: ":",
+etFontFamily: "Roboto",
+etTextColor: "#fff",
+etPaddingTB: 15,
+etPaddingLR: 15,
+etBackground: "#ff9999",
+etBorderSize: 0,
+etBorderRadius: 2,
+etBorderColor: "white",
+etShadow: " 0px 0px 00px 0px #ff9999",
+etLastUnit: 4,
+etNumberFontFamily: "Roboto",
+etNumberSize: 35,
+etNumberColor: "white",
+etNumberPaddingTB: 0,
+etNumberPaddingLR: 8,
+etNumberBackground: "#990000",
+etNumberBorderSize: 0,
+etNumberBorderRadius: 5,
+etNumberBorderColor: "white",
+etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0)"
+});
+	
+	
 
 
 
