@@ -1,0 +1,208 @@
+
+
+@-webkit-keyframes animateHeart
+	0%
+		-webkit-transform: scale(1)
+	5%
+		-webkit-transform: scale(1.2)
+	10%
+		-webkit-transform: scale(1.1)
+	15%
+		-webkit-transform: scale(1.3)
+	50%
+		-webkit-transform: scale(1)
+	100%
+		-webkit-transform: scale(1)
+
+@keyframes animateHeart
+	0%
+		-webkit-transform: scale(1)
+		transform: scale(1)
+	5%
+		-webkit-transform: scale(1.2)
+		transform: scale(1.2)
+	10%
+		-webkit-transform: scale(1.1)
+		transform: scale(1.1)
+	15%
+		-webkit-transform: scale(1.3)
+		transform: scale(1.3)
+	50%
+		-webkit-transform: scale(1)
+		transform: scale(1)
+	100%
+		-webkit-transform: scale(1)
+		transform: scale(1)
+
+.heart-anim
+	-webkit-animation: animateHeart 5s infinite
+	animation: animateHeart 5s infinite
+
+
+
+.animationName
+  animation: animationName_3129 3s linear infinite
+  transform-origin: 50% 50%
+
+@keyframes animationName_3129
+  0%
+    transform: scale(1)
+
+  8.33333%
+    transform: scale(0.9) rotate(-8deg)
+
+  16.66667%
+    transform: scale(0.9) rotate(-8deg)
+
+  25%
+    transform: scale(1.3) rotate(8deg)
+
+  33.33333%
+    transform: scale(1.3) rotate(-8deg)
+
+  41.66667%
+    transform: scale(1.3) rotate(8deg)
+
+  50%
+    transform: scale(1.3) rotate(-8deg)
+
+  58.33333%
+    transform: scale(1.3) rotate(8deg)
+
+  66.66667%
+    transform: scale(1) rotate(0)
+
+  100%
+    transform: scale(1) rotate(0)
+
+
+
+.ring
+  animation: ring 3s linear infinite
+  transform-origin: 50% 50%
+
+@keyframes ring
+  0%
+    transform: scale(1)
+
+  4.16667%
+    transform: scale(0.9) rotate(-8deg)
+
+  8.33333%
+    transform: scale(0.9) rotate(-8deg)
+
+  12.5%
+    transform: scale(1.3) rotate(8deg)
+
+  16.66667%
+    transform: scale(1.3) rotate(-8deg)
+
+  20.83333%
+    transform: scale(1.3) rotate(8deg)
+
+  25%
+    transform: scale(1.3) rotate(-8deg)
+
+  29.16667%
+    transform: scale(1.3) rotate(8deg)
+
+  33.33333%
+    transform: scale(1) rotate(0)
+
+  100%
+    transform: scale(1) rotate(0)
+
+
+
+
+
+
+.bounce
+	animation: bounce 3.6s ease infinite
+	transform-origin: 50% 50%
+
+@keyframes bounce
+  0%
+    transform: translateY(0)
+
+  5.55556%
+    transform: translateY(0)
+
+  11.11111%
+    transform: translateY(0)
+
+  22.22222%
+    transform: translateY(-15px)
+
+  27.77778%
+    transform: translateY(0)
+
+  33.33333%
+    transform: translateY(-15px)
+
+  44.44444%
+    transform: translateY(0)
+
+  100%
+    transform: translateY(0)
+
+
+
+
+.passing
+  animation: passing 4s linear infinite
+  transform-origin: 50% 50%
+
+@keyframes passing
+  0%
+    transform: translateX(-50%)
+    opacity: 0
+
+  25%
+    transform: translateX(0%)
+    opacity: 1
+
+  50%
+    transform: translateX(50%)
+    opacity: 0
+
+  100%
+    transform: translateX(50%)
+    opacity: 0
+
+
+
+
+
+.shine
+  animation: passing 4s linear infinite
+  transform-origin: 50% 50%
+
+
+@keyframes shine
+	100%
+	    background-position: 500% 0,0 0,0 0,0 100%,0 4px,0 calc(100% - 4px)
+	20%
+	    background-position: 200% 0,0 0,0 0,0 100%,0 4px,0 calc(100% - 4px)
+	0%
+	    background-position: -200% 0,0 0,0 0,0 100%,0 4px,0 calc(100% - 4px)
+
+
+.main-btn.shine
+	background-size: 200% 100%,auto,100% 2px,100% 2px,100% 1px,100% 1px
+	background-image: linear-gradient(45deg,rgba(255,255,255,.0) 30%,rgba(255,255,255,.8),rgba(255,255,255,.0) 70%)
+	background-repeat: no-repeat
+	background-position: -200% 0,0 0,0 0,0 100%,0 4px,0 calc(100% - 4px)
+	animation: shine 5s ease reverse infinite
+	// box-shadow: 0 9px 40px 0 rgba(50,50,50,0.30)
+
+
+
+
+pre
+	color: $deep-dark-color
+	margin: 0
+	padding: 0
+	position: absolute
+	text-align: left
+	left: 50px

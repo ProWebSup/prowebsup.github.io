@@ -1,0 +1,138 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+// @import "blocks/main-menu"
+// @import "blocks/main-nav"
+
+// Components
+// @import "components/preloader"
+// @import "components/navbar"
+@import "components/titles"
+@import "components/btn"
+@import "components/callback-btn"
+@import "components/forms"
+@import "components/animations"
+@import "components/gradient"
+
+
+// Blocks
+@import "blocks/header"
+// @import "blocks/result"
+// @import "blocks/about"
+@import "blocks/skills"
+@import "blocks/map-title"
+// @import "blocks/technologies"
+// @import "blocks/portfolio"
+// @import "blocks/price"
+@import "blocks/testimonials"
+@import "blocks/testimonials-m"
+// @import "blocks/partners"
+// @import "blocks/process"
+// @import "blocks/faq"
+// @import "blocks/blog-articles"
+@import "blocks/action"
+// @import "blocks/team"
+@import "blocks/map"
+@import "blocks/footer"
+@import "components/modal"
+@import "blocks/copyright"
+
+
+
+::placeholder
+	color: #666
+
+
+::selection
+	background-color: $accent
+	color: #fff
+
+html, body
+	// height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	background-color: #fff
+	input, textarea
+			border: 1px solid red
+			outline: none
+			// &:focus:required:invalid
+			// 	border-color: red
+			// &:required:valid
+			// 	border-color: green
+			// &:focus
+			// border: 3px solid red
+			// &:active
+			// border: 3px solid red
+a
+	color: $white
+	-webkit-transition: $link-transition
+	-moz-transition: $link-transition
+	-o-transition: $link-transition
+	transition: $link-transition
+	&:hover
+		color: $light-color
+		text-decoration: none
+		-webkit-transition: $link-transition
+		-moz-transition: $link-transition
+		-o-transition: $link-transition
+		transition: $link-transition
+	&:focus
+		outline: none
+	&:active
+		outline: none
+
+
+
+section,
+header
+	padding: $section-paddings
+
+
+
+
+// body input:focus:required:invalid, body textarea:focus:required:invalid
+// 	border: 1px solid red
+
+// body input:required:valid, body textarea:required:valid 
+// 	border: 1px solid red
+
+// .custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid
+// 	border: 1px solid red
+
+
+
+
+
+
+
+
+
+// .svg-inline--fa
+// 	font-size: 40px
+// 	color: green
+
+
+.progress_bar
+	/*.transition(all .1s);*/
+	position: fixed
+	top: 0
+	left: 0
+	width: 0
+	height: 5px
+	// background-color: #fff
+	z-index: 3000
+
+
+
+
+
+
+
+
+@import "media" // Always at the end

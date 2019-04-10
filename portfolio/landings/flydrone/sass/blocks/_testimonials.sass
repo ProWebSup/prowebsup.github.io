@@ -1,0 +1,122 @@
+
+
+.main-testimonials .owl-my-nav button 
+	padding: 0
+	margin: 0
+	border: none
+	width: 0
+	font-weight: normal
+	background: none
+	color: $dark-color
+
+
+
+.main-testimonials .block-one-example 
+	margin: 30px 0
+	position: relative
+
+
+		/*Основные стили*/
+
+.main-testimonials .inner-testimonial 
+	text-align: center
+	background-color: #fff
+	
+
+.main-testimonials .inner-testimonial > img
+	max-width: 128px
+	margin: 0 auto 15px
+	opacity: 0
+	-webkit-transition: all 1.3s linear
+	transition: all 1.3s linear
+	
+
+.main-testimonials .owl-item.active .inner-testimonial > img
+	-webkit-transition: all 1.3s linear
+	transition: all 1.3s linear
+	
+
+.main-testimonials .owl-item.active .inner-testimonial > img.full-opacity
+	opacity: 1
+	-webkit-transition: all 0.3s linear
+	transition: all 0.3s linear
+	
+
+.main-testimonials h3.city-name 
+	/* padding: 10px */
+	font-size: 3vmin
+	font-family: "Roboto", sans-serif
+	font-weight: 900
+	text-align: center
+
+
+.main-testimonials .text-testimonial 
+	padding: 10px 0
+	font-size: 20px
+	font-family: "Roboto", sans-serif
+	font-weight: 300
+	line-height: 25px
+
+
+.main-testimonials .block-items
+	cursor: pointer
+	
+
+.main-testimonials .owl-carousel .owl-dots 
+	text-align: center
+	margin-top: 0
+	padding-top: 0
+
+
+
+.main-testimonials .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot 
+	background-color: $dark-color
+	width: 10px
+	height: 10px
+	margin-left: 5px
+	border-radius: 50%
+
+
+.main-testimonials .owl-carousel button.owl-dot:active
+.main-testimonials .owl-carousel button.owl-dot:focus,
+.main-testimonials .owl-carousel button.owl-dot.active 
+	background-color: $dark-color
+	width: 15px
+	height: 15px
+
+
+
+
+
+	/*Стрелки*/
+.main-testimonials .owl-my-nav 
+	position: absolute
+	width: 95%
+	height: 100%
+
+
+.main-testimonials .owl-my-nav .owl-prev,
+.main-testimonials .owl-my-nav .owl-next
+	position: absolute
+	width: 60px
+	top: 34%
+	font-size: 80px
+	z-index: 20
+	cursor: pointer
+	opacity: 0.5
+	-webkit-transition:opacity .3s ease
+	transition:opacity .3s ease
+	
+
+.main-testimonials .owl-my-nav .owl-prev:hover,
+.main-testimonials .owl-my-nav .owl-next:hover
+	opacity: 0.8
+	
+
+.main-testimonials .owl-my-nav .owl-prev 
+	left: 50px
+
+
+.main-testimonials .owl-my-nav .owl-next 
+	right: 50px
+	/*text-align: right*/
