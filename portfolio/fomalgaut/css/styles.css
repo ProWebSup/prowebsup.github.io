@@ -13,13 +13,13 @@
   src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
 
 a {
-  color: #ff3547;
+  color: #ec407a;
   -webkit-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
   transition: all 0.7s ease; }
   a:hover {
-    color: #CC0000;
+    color: #f8bbd0;
     text-decoration: none;
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
