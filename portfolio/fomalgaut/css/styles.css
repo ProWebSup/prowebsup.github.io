@@ -88,3 +88,9 @@ input[type="color"]:focus,
   border-color: #ff3547;
   box-shadow: 0 1px 1px rgba(204, 0, 0, 0.075) inset, 0 0 8px rgba(204, 0, 0, 0.6);
   outline: 0 none; }
+
+.main-contacts {
+  padding: 25px 0 0 0 !important; }
+
+.main-contacts .contact-social a {
+  margin-left: 15px; }
