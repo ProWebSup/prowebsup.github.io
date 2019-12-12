@@ -61,7 +61,20 @@ section {
   font-size: 6vw; }
 
 .header-desc {
-  font-size: 3vw; }
+  font-size: 2.5vw;
+  line-height: 1; }
+
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
+  width: 50px !important;
+  height: 50px !important; }
+
+.carousel-caption h3 {
+  font-size: 8vw;
+  font-family: LemonTuesday; }
+
+.carousel-caption p {
+  font-size: 2.3vw; }
 
 .overlay-header:before {
   position: absolute;
