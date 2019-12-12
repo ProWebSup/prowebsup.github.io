@@ -12,6 +12,13 @@
   src: url("../fonts/RobotoBold/RobotoBold.eot");
   src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "LemonTuesday";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/LemonTuesday/LemonTuesday.eot");
+  src: url("../fonts/LemonTuesday/LemonTuesday.eot?#iefix") format("embedded-opentype"), url("../fonts/LemonTuesday/LemonTuesday.woff") format("woff"), url("../fonts/LemonTuesday/LemonTuesday.ttf") format("truetype"); }
+
 a {
   color: #ec407a;
   -webkit-transition: all 0.7s ease;
@@ -46,6 +53,15 @@ section {
 
 .main-header {
   color: #fff; }
+
+.header-title {
+  font-family: LemonTuesday; }
+
+.header-title h1 {
+  font-size: 6vw; }
+
+.header-desc {
+  font-size: 3vw; }
 
 .overlay-header:before {
   position: absolute;
@@ -94,3 +110,6 @@ input[type="color"]:focus,
 
 .main-contacts .contact-social a {
   margin-left: 15px; }
+
+form .form-check-label {
+  font-size: 12px; }
