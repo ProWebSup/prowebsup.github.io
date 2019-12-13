@@ -74,7 +74,8 @@ section {
   font-family: LemonTuesday; }
 
 .carousel-caption p {
-  font-size: 2.3vw; }
+  font-size: 2.3vw;
+  line-height: 10px; }
 
 .overlay-header:before {
   position: absolute;
