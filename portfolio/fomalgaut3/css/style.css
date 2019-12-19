@@ -6,46 +6,46 @@ body{
 
 /*font face*/
 @font-face {
-    font-family: 'oswaldbold';
-    src: url('../fonts/oswaldcy/Oswald-Bold.eot');
-    src: url('../fonts/oswaldcy/Oswald-Bold.eot') format('embedded-opentype'),
-         url('../fonts/oswaldcy/Oswald-Bold.woff') format('woff'),
-         url('../fonts/oswaldcy/Oswald-Bold.ttf') format('truetype'),
-         url('../fonts/oswaldcy/Oswald-Bold.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'oswaldbold';
+	src: url('../fonts/oswaldcy/Oswald-Bold.eot');
+	src: url('../fonts/oswaldcy/Oswald-Bold.eot') format('embedded-opentype'),
+	url('../fonts/oswaldcy/Oswald-Bold.woff') format('woff'),
+	url('../fonts/oswaldcy/Oswald-Bold.ttf') format('truetype'),
+	url('../fonts/oswaldcy/Oswald-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'oswaldlight';
-    src: url('../fonts/oswaldcy/Oswald-Light.eot');
-    src: url('../fonts/oswaldcy/Oswald-Light.eot') format('embedded-opentype'),
-         url('../fonts/oswaldcy/Oswald-Light.woff') format('woff'),
-         url('../fonts/oswaldcy/Oswald-Light.ttf') format('truetype'),
-         url('../fonts/oswaldcy/Oswald-Light.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'oswaldlight';
+	src: url('../fonts/oswaldcy/Oswald-Light.eot');
+	src: url('../fonts/oswaldcy/Oswald-Light.eot') format('embedded-opentype'),
+	url('../fonts/oswaldcy/Oswald-Light.woff') format('woff'),
+	url('../fonts/oswaldcy/Oswald-Light.ttf') format('truetype'),
+	url('../fonts/oswaldcy/Oswald-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'oswaldbook';
-    src: url('../fonts/oswaldcy/Oswald-Regular.eot');
-    src: url('../fonts/oswaldcy/Oswald-Regular.eot') format('embedded-opentype'),
-         url('../fonts/oswaldcy/Oswald-Regular.woff') format('woff'),
-         url('../fonts/oswaldcy/Oswald-Regular.ttf') format('truetype'),
-         url('../fonts/oswaldcy/Oswald-Regular.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'oswaldbook';
+	src: url('../fonts/oswaldcy/Oswald-Regular.eot');
+	src: url('../fonts/oswaldcy/Oswald-Regular.eot') format('embedded-opentype'),
+	url('../fonts/oswaldcy/Oswald-Regular.woff') format('woff'),
+	url('../fonts/oswaldcy/Oswald-Regular.ttf') format('truetype'),
+	url('../fonts/oswaldcy/Oswald-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'lobster_1.3regular';
-    src: url('../fonts/lobstercy/LobsterRegular.eot');
-    src: url('../fonts/lobstercy/LobsterRegular.eot') format('embedded-opentype'),
-         url('../fonts/lobstercy/LobsterRegular.woff') format('woff'),
-         url('../fonts/lobstercy/LobsterRegular.ttf') format('truetype'),
-         url('../fonts/lobstercy/LobsterRegular.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'lobster_1.3regular';
+	src: url('../fonts/lobstercy/LobsterRegular.eot');
+	src: url('../fonts/lobstercy/LobsterRegular.eot') format('embedded-opentype'),
+	url('../fonts/lobstercy/LobsterRegular.woff') format('woff'),
+	url('../fonts/lobstercy/LobsterRegular.ttf') format('truetype'),
+	url('../fonts/lobstercy/LobsterRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 /*end font face*/
 
@@ -135,16 +135,16 @@ nav a{
 	color:#7d7d7d;	
 	
 	-webkit-transition:color 250ms ease-in;  
-   -moz-transition:color 250ms ease-in;  
-   -o-transition:color 250ms ease-in;  
-   transition:color 250ms ease-in;  
+	-moz-transition:color 250ms ease-in;  
+	-o-transition:color 250ms ease-in;  
+	transition:color 250ms ease-in;  
 }
 nav a:hover{
 	color:#bbbbbb;	
 	-webkit-transition:color 250ms ease-in;  
-   -moz-transition:color 250ms ease-in;  
-   -o-transition:color 250ms ease-in;  
-   transition:color 250ms ease-in; 
+	-moz-transition:color 250ms ease-in;  
+	-o-transition:color 250ms ease-in;  
+	transition:color 250ms ease-in; 
 }
 
 .leftnavigation, .leftnavigation li{
@@ -172,7 +172,7 @@ nav a:hover{
 	
 }
 #sectionslide ul{
-    margin: 0;
+	margin: 0;
 	padding: 0; 
 	border: 0; 
 	outline: 0; 
@@ -218,11 +218,11 @@ nav a:hover{
 /*#partners .titlesection{
 	text-shadow: 3px 3px 0 rgba(223, 223, 223, 0.9);
 	background-image:url(../img/divider/services.png);
-}*/
-#partners .grid_3 {
-	text-align: center;
-}
-#partners img{
+	}*/
+	#partners .grid_3 {
+		text-align: center;
+	}
+	#partners img{
 	/*float:left;
 	margin:20px;	*/
 	text-align: center;
@@ -328,10 +328,10 @@ nav a:hover{
 	display:inline-block;
 	font-size: 17px;
 	font-family: 'oswaldlight';
-    
+
 }
 #filters li a{
-    padding: 5px 10px;
+	padding: 5px 10px;
 	color:#FFF;
 	
 	opacity: 1;
@@ -377,18 +377,18 @@ nav a:hover{
 	left:50%;
 	
 	-webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 	
 }
 .element:hover .worksarrow img{
 	-webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);	
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);	
 	
 }
 .imgwork{
@@ -590,11 +590,11 @@ nav a:hover{
 }
 .skilldescription #operator{
 	background-image:url(../img/section-skills/operator.png);
-    height: 150px;
-    margin-left: 42px;
-    margin-top: 116px;
-    position: absolute;
-    width: 15px;	
+	height: 150px;
+	margin-left: 42px;
+	margin-top: 116px;
+	position: absolute;
+	width: 15px;	
 }
 .skilldescription p{
 	margin-top:10px;
@@ -708,16 +708,16 @@ nav a:hover{
 
 .hidebigmarker{
 	filter: alpha(opacity=0); /* internet explorer */
-    opacity: 0;           /* fx, safari, opera, chrome */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=1)"; /*IE8*/
+	opacity: 0;           /* fx, safari, opera, chrome */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=1)"; /*IE8*/
 	
 	-webkit-transition: all 0.5s ease;	
 	-moz-transition: all 0.5s ease;	
 }
 .showbigmarker{
 	filter: alpha(opacity=1); /* internet explorer */
-    opacity: 1;           /* fx, safari, opera, chrome */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; /*IE8*/
+	opacity: 1;           /* fx, safari, opera, chrome */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; /*IE8*/
 	
 	-webkit-transition: all 0.5s ease;	
 	-moz-transition: all 0.5s ease;	
@@ -833,7 +833,7 @@ nav a:hover{
 .demo-blog{
 	text-decoration:none;
 	margin:0px;
-  	padding:0px;
+	padding:0px;
 	float:right;
 }
 
@@ -874,11 +874,11 @@ nav a:hover{
 	background-size: 44px;
 }
 .clearfix:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 .btn{
 	margin:10px 0px !important;
@@ -894,13 +894,13 @@ visibility: hidden;
 	-moz-transition-duration: 250ms;
 }
 .btn:hover{
-opacity: 0.7;
--webkit-transition: opacity;
--webkit-transition-timing-function: ease-out;
--webkit-transition-duration: 250ms;
--moz-transition: opacity;
--moz-transition-timing-function: ease-out;
--moz-transition-duration: 250ms;
+	opacity: 0.7;
+	-webkit-transition: opacity;
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transition: opacity;
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
 }
 .btn a{
 	font-size:17px;
@@ -970,19 +970,19 @@ opacity: 0.7;
 /*start hover effect*/
 /*rotate*/
 .rotate{
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
- 
+
 .rotate:hover {
-  -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 /*rotate*/
 
@@ -1004,29 +1004,105 @@ opacity: 0.7;
 
 /*opacity*/
 .opacity{
-opacity: 1;
--webkit-transition: opacity;
--webkit-transition-timing-function: ease-out;
--webkit-transition-duration: 250ms;
--moz-transition: opacity;
--moz-transition-timing-function: ease-out;
--moz-transition-duration: 250ms;
+	opacity: 1;
+	-webkit-transition: opacity;
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transition: opacity;
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
 }
 .opacity:hover{
-opacity: 0.8;
--webkit-transition: opacity;
--webkit-transition-timing-function: ease-out;
--webkit-transition-duration: 250ms;
--moz-transition: opacity;
--moz-transition-timing-function: ease-out;
--moz-transition-duration: 250ms;
+	opacity: 0.8;
+	-webkit-transition: opacity;
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transition: opacity;
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
 }
 /*opacity*/
 /*end hover effect*/
 
 
 
-footer .grid_12 {
-	width: 99% !important;
-	text-align: center !important;
+.contacts .container {
+	padding: 0;
 }
+
+.contacts p {
+	padding: 10px 0;
+}
+
+
+.contacts form {
+	margin-top: 15px;
+}
+
+
+.contacts .button{text-decoration:none; text-align:center; 
+ padding:20px 50px; 
+ border:none; 
+ -webkit-border-radius:50px;
+ -moz-border-radius:50px; 
+ border-radius: 50px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#e5ffff; 
+ background-color:#ff8810; 
+ background-image: -moz-linear-gradient(top, #ff8810 0%, #d17b26 100%); 
+ background-image: -webkit-linear-gradient(top, #ff8810 0%, #d17b26 100%); 
+ background-image: -o-linear-gradient(top, #ff8810 0%, #d17b26 100%); 
+ background-image: -ms-linear-gradient(top, #ff8810 0% ,#d17b26 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d17b26', endColorstr='#d17b26',GradientType=0 ); 
+ background-image: linear-gradient(top, #ff8810 0% ,#d17b26 100%);   
+ -webkit-box-shadow:0px 5px 11px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 5px 11px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 5px 11px #bababa, inset 0px 0px 1px #ffffff;  
+  
+  }
+
+.contacts .button:hover{
+ padding:20px 50px; 
+ border:none; 
+ -webkit-border-radius:50px;
+ -moz-border-radius:50px; 
+ border-radius: 50px; 
+ font:16px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#e5ffff; 
+ background-color:#ff8810; 
+ background-image: -moz-linear-gradient(top, #ff8810 0%, #d17b26 100%); 
+ background-image: -webkit-linear-gradient(top, #ff8810 0%, #d17b26 100%); 
+ background-image: -o-linear-gradient(top, #ff8810 0%, #d17b26 100%); 
+ background-image: -ms-linear-gradient(top, #ff8810 0% ,#d17b26 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d17b26', endColorstr='#d17b26',GradientType=0 ); 
+ background-image: linear-gradient(top, #ff8810 0% ,#d17b26 100%);   
+ -webkit-box-shadow:0px 10px 11px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 10px 11px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 10px 11px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }
+
+
+.contacts .button:active{
+ padding:20px 50px; 
+ border:none; 
+ -webkit-border-radius:50px;
+ -moz-border-radius:50px; 
+ border-radius: 50px; 
+ font:16px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#e5ffff; 
+ background-color:#f2800e; 
+ background-image: -moz-linear-gradient(top, #f2800e 0%, #f2881d 100%); 
+ background-image: -webkit-linear-gradient(top, #f2800e 0%, #f2881d 100%); 
+ background-image: -o-linear-gradient(top, #f2800e 0%, #f2881d 100%); 
+ background-image: -ms-linear-gradient(top, #f2800e 0% ,#f2881d 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2881d', endColorstr='#f2881d',GradientType=0 ); 
+ background-image: linear-gradient(top, #f2800e 0% ,#f2881d 100%);   
+ -webkit-box-shadow:0px 5px 11px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 5px 11px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 5px 11px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }
