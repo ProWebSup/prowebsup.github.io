@@ -208,6 +208,31 @@ nav a:hover{
 /*end services*/
 
 
+
+/*start features*/
+#features{
+	width:100%;
+	float:left;
+	background-image:url(../img/patterns/grey-bg.png);
+	background-repeat:repeat;	
+}
+/*#services .titlesection{
+	text-shadow: 3px 3px 0 rgba(223, 223, 223, 0.9);
+	background-image:url(../img/divider/services.png);
+}*/
+#features p{
+	margin:10px 20px;
+}
+#features h2{
+	margin:20px 20px 0px 20px;
+}
+#features img{
+	float:left;
+	margin:20px;	
+}
+/*end features*/
+
+
 /*start services*/
 #partners{
 	width:100%;
@@ -1032,11 +1057,18 @@ nav a:hover{
 
 .contacts p {
 	padding: 10px 0;
+	margin-left: 15px;
+}
+
+.list-contacts {
+	text-align: left;
 }
 
 
-.contacts form {
+.contacts .contacts-btn {
 	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: left;
 }
 
 
@@ -1068,7 +1100,7 @@ nav a:hover{
  -webkit-border-radius:50px;
  -moz-border-radius:50px; 
  border-radius: 50px; 
- font:16px Arial, Helvetica, sans-serif; 
+ font:18px Arial, Helvetica, sans-serif; 
  font-weight:bold; 
  color:#e5ffff; 
  background-color:#ff8810; 
@@ -1091,7 +1123,7 @@ nav a:hover{
  -webkit-border-radius:50px;
  -moz-border-radius:50px; 
  border-radius: 50px; 
- font:16px Arial, Helvetica, sans-serif; 
+ font:18px Arial, Helvetica, sans-serif; 
  font-weight:bold; 
  color:#e5ffff; 
  background-color:#f2800e; 
