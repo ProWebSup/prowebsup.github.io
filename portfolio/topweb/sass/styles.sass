@@ -1,0 +1,405 @@
+
+@import "fonts"
+
+
+// .main-color-light
+// 	color: #f9efed !important
+
+// .main-color-dark
+// 	color: #eadbd4 !important
+
+
+// .main-bg-light
+// 	background-color: #f9efed !important
+
+// .main-bg-dark
+// 	background-color: #eadbd4 !important
+
+
+
+body
+	font-family: MagistralC
+
+
+// .main-color-light
+// 	color: #f9efed !important
+
+// .main-color-dark
+// 	color: #eadbd4 !important
+
+
+// .main-bg-light
+// 	background-color: #f9efed !important
+
+// .main-bg-dark
+// 	background-color: #eadbd4 !important
+
+
+.green-bg
+	background-color: #00cc00
+	color: #fff
+
+
+
+a
+	color: #eadbd4
+	-webkit-transition: all 0.7s ease
+	-moz-transition: all 0.7s ease
+	-o-transition: all 0.7s ease
+	transition: all 0.7s ease
+	&:hover
+		color: #f9efed
+		text-decoration: none
+		-webkit-transition: all 0.7s ease
+		-moz-transition: all 0.7s ease
+		-o-transition: all 0.7s ease
+		transition: all 0.7s ease
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus 
+  border-color: #f9efed
+  box-shadow: 0 1px 1px rgba(0, 204, 0, 0.075) inset, 0 0 8px rgba(204, 0, 0, 0.6)
+  box-shadow: none !important
+  outline: 0 none
+
+
+
+.form-control:focus
+	border-color: #00cc00
+
+input, textarea
+	border: #666 1px solid
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: #00cc00
+
+
+/*-----------------------------------------*/
+
+.main-header
+	z-index: 1
+
+.main-header .navbar-bg
+	background-color: #0067ac
+
+.main-header .navbar
+	box-shadow: none
+
+
+.main-header .fixed-top
+	z-index: 1000
+
+.main-header .navbar li
+	margin-left: 70px
+
+.main-header .navbar .svg-inline--fa
+	color: #fff
+
+.main-header .navbar .btn-primary
+	background-color: #00cc00 !important
+
+.main-header .navbar .btn-primary:hover
+	background-color: #00cc99 !important
+
+.main-header .navbar .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+	background-color: #00cc99 !important
+
+/*-----------------------------------------*/
+
+
+.main-services
+	background-image: url(../img/services/services-bg.jpg)
+	background-repeat: no-repeat
+	// background-position: top center
+	// background-size: cover
+	position: relative
+
+
+.title-services
+	margin-top: 130px
+
+.main-services .main-title
+	font-size: 30px
+
+.main-services .main-title span
+	background-color: #00cc00
+	color: #fff
+
+.main-services .owl-carousel
+	z-index: 0 !important
+	margin-top: 50px
+
+
+.main-services .owl-nav .owl-prev
+	position: absolute
+	left: 200px
+	top: 25%
+	width: 64px
+	height: 119px
+	background-image: url(../img/services/arrow-l.png) !important
+
+.main-services .owl-nav .owl-next
+	position: absolute
+	right: 200px
+	top: 25%
+	width: 64px
+	height: 119px
+	background-image: url(../img/services/arrow-r.png) !important
+
+/*-----------------------------------------*/
+
+
+
+.main-about
+	background-image: url(../img/about/about-bg.jpg)
+	background-repeat: no-repeat
+	background-position: top center
+	background-size: cover
+	position: relative
+	padding: 130px 0 106px 0
+
+
+// .main-about img
+// 	position: absolute !important
+
+
+.main-about .about-2
+	position: absolute
+	top: 270px
+	left: 100px
+
+.main-about .about-2 img
+	width: 200px
+	height: 211px
+
+.main-about .about-block
+	border: 1px solid #669966
+	border-radius: 30px
+	margin-top: 25px
+
+.main-about h2
+	font-size: 18px
+	font-style: italic
+
+
+.main-about p
+	font-size: 18px
+
+.main-about .about-green
+	font-style: italic
+
+.main-about .about-text
+	font-size: 14px
+	margin: 0
+	padding: 0
+
+
+
+
+/*-----------------------------------------*/
+
+
+
+.main-features
+	background-image: url(../img/features/features-bg.jpg)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	position: relative
+	padding: 150px 0 30px 0
+
+.main-features .main-title
+	font-size: 30px
+	font-style: italic
+
+.main-features .main-title span
+	background-color: #00cc00
+	color: #fff
+
+
+.main-features .features-img
+	text-align: center
+
+.main-features .features-text
+	text-align: center
+
+.main-features .features-text p
+	font-size: 18px
+
+
+
+
+/*-----------------------------------------*/
+
+
+.main-aero
+	padding: 80px 0 100px 0
+
+.main-aero .aerobg-1
+	position: relative
+	bottom: 40px
+
+.main-aero .aerobg-2
+	position: relative
+	top: 170px
+	left: 50px
+
+.main-aero .aerobg-3
+	position: relative
+	bottom: 40px
+
+.main-aero .aero-block
+	border: 1px solid #66cc99
+
+.main-aero .aero-block h2
+	font-size: 30px
+	font-style: italic
+	color: #00cc00
+
+.main-aero .aero-block p
+	font-size: 18px
+
+
+
+/*-----------------------------------------*/
+
+
+.main-portfolio
+	// padding: 150px 0 30px 0
+
+.main-portfolio .main-title
+	font-size: 30px
+
+.main-portfolio .main-title span
+	background-color: #00cc00
+	color: #fff
+
+
+
+.main-portfolio .btn-primary
+	background-color: #00cc00 !important
+
+.main-portfolio .btn-primary:hover
+	background-color: #00cc99 !important
+
+.main-portfolio .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+	background-color: #00cc99 !important
+
+
+.main-portfolio .btn-outline-primary
+	color: #00cc00 !important
+	border: 2px solid #00cc00 !important
+
+.main-portfolio .btn-outline-primary:hover
+	background-color: #00cc00 !important
+	color: #fff !important
+
+.main-portfolio .btn-outline-primary:not([disabled]):not(.disabled).active, .btn-outline-primary:not([disabled]):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle
+	background-color: #00cc00 !important
+	border: 2px solid #00cc00 !important
+
+
+
+
+/*-----------------------------------------*/
+
+
+.main-partners
+	padding: 30px 0 30px 0
+
+
+.main-partners .btn-primary
+	background-color: #00cc00 !important
+
+.main-partners .btn-primary:hover
+	background-color: #00cc99 !important
+
+.main-partners .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+	background-color: #00cc99 !important
+
+
+
+/*-----------------------------------------*/
+
+
+
+
+/*-----------------------------------------*/
+
+
+.main-action
+	padding: 0 0 30px 0
+
+
+.main-action .btn-primary
+	background-color: #00cc00 !important
+
+.main-action .btn-primary:hover
+	background-color: #00cc99 !important
+
+.main-action .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+	background-color: #00cc99 !important
+
+
+
+/*-----------------------------------------*/
+
+
+
+.main-footer
+	padding: 150px 0 30px 0
+	background-color: #333
+	color: #fff
+
+
+.main-footer a
+	color: #fff
+	padding: 5px
+
+.main-footer .footer-linsk a:hover
+	background-color: #00cc00
+
+.main-footer .main-green
+	color: #00cc00 !important
+
+.main-footer .d-flex p
+	font-size: 18px
+	margin-left: 35px
+
+.main-footer .copyright p
+	padding: 0 !important
+	line-height: 10px
+
+.main-footer .copyright p a:hover
+	background-color: none !important
+	color: #fff
+
+
+
+
+/*-----------------------------------------*/
+
+.modal .btn-primary
+	background-color: #00cc00 !important
+
+.modal .btn-primary:hover
+	background-color: #00cc99 !important
+
+.modal .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+	background-color: #00cc99 !important
