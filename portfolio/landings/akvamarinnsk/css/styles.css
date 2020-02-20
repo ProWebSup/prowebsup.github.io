@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "NotoSans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/NotoSans/NotoSans.eot");
+  src: url("../fonts/NotoSans/NotoSans.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans/NotoSans.woff") format("woff"), url("../fonts/NotoSans/NotoSans.ttf") format("truetype"); }
+
+.navbar .navbar-title p {
+  font-size: 2.25rem;
+  color: #fff;
+  text-transform: uppercase; }
+
+.navbar .navbar-number p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase; }
+
+.header {
+  padding: 50px 0 30px 0;
+  background-image: url("../img/header/header-min.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 500px;
+  position: relative;
+  color: #fff; }
+  .header background-size:cover {
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center; }
+
+.overlay-header:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(120, 51, 0, 0.7); }
+
+.header-title p {
+  font-size: 26px; }
+
+.header-item p {
+  font-size: 22px; }
+
+.photos-halls {
+  padding: 70px 0 70px 0; }
+
+.photos-menu {
+  padding: 70px 0 70px 0; }
+
+.features {
+  padding: 70px 0 70px 0; }
+
+.features p {
+  font-size: 18px;
+  font-weight: bold; }
+
+.action {
+  padding: 70px 0 15px 0;
+  background-image: url(../img/action/action-bg-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  color: #fff; }
+  .action background-size:cover {
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center; }
+
+.overlay-action:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(120, 51, 0, 0.7); }
+
+.action p {
+  font-size: 26px;
+  letter-spacing: 10px; }
+
+.contacts {
+  padding: 30px 0 30px 0;
+  background-color: #333;
+  color: #fff; }
+
+.contacts h3 {
+  font-size: 26px; }
+
+.contacts span {
+  font-size: 18px;
+  line-height: 2; }
+
+body {
+  font-family: NotoSans; }
+
+a {
+  color: #eadbd4;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease; }
+  a:hover {
+    color: #cc9900;
+    text-decoration: none;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease; }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #f9efed;
+  box-shadow: 0 1px 1px rgba(0, 204, 0, 0.075) inset, 0 0 8px rgba(204, 0, 0, 0.6);
+  box-shadow: none !important;
+  outline: 0 none; }
+
+.form-control:focus {
+  border-color: #00cc00; }
+
+input, textarea {
+  border: #666 1px solid;
+  outline: none; }
+  input:focus:required:invalid, textarea:focus:required:invalid {
+    border-color: red; }
+  input:required:valid, textarea:required:valid {
+    border-color: #00cc00; }
+
+.btn-rounded {
+  border-radius: 25px !important;
+  background-color: #cc9900 !important;
+  border-color: #cc9900 !important; }
+
+.btn-rounded:hover {
+  background-color: #ffcc33 !important;
+  border-color: #ffcc33 !important; }
