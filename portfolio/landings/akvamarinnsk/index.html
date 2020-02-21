@@ -48,6 +48,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-4.4.1/css/bootstrap.min.css">
 	<!-- 	<link rel="stylesheet" href="libs/mdboostrap/css/mdb.min.css"> -->
 
+
 	<link rel="stylesheet" href="libs/animate/animate.min.css">
 	<link rel="stylesheet" href="libs/fontawesome-5.11.2/css/all.min.css">
 	<!-- <link rel="stylesheet" href="libs/owl2/assets/owl.carousel.min.css"> -->
@@ -73,13 +74,13 @@
 
 			<div class="col-md-4">
 				<div class="navbar-title text-center">
-					<p>Свадьбы</p>
+					<p>Аквамарин</p>
 				</div>
 			</div>
 
 			<div class="col-md-2">
 				<div class="navbar-btn text-center mb-3">
-					<button type="button" class="btn btn-primary btn-xl btn-rounded" data-toggle="modal" data-target="#exampleModal">Забронировать</button>
+					<button type="button" class="btn btn-primary btn-xl btn-rounded" data-toggle="modal" data-target="#akvaModal">Забронировать</button>
 				</div>
 			</div>
 
@@ -119,7 +120,7 @@
 
 					<div class="col-md-12 order-3">
 						<div class="header-btn text-center">
-							<button type="button" class="btn btn-primary btn-lg btn-rounded" data-toggle="modal" data-target="#exampleModal">Забронировать</button>
+							<button type="button" class="btn btn-primary btn-lg btn-rounded" data-toggle="modal" data-target="#akvaModal">Забронировать</button>
 						</div>
 					</div>
 
@@ -134,17 +135,16 @@
 
 
 
-
 		<!-- Start timer-hotel -->
 		<section class="timer-hotel" id="timer-hotel">
 			<div class="container">
 				<div class="row">
 					
-					<!-- <div class="col-md-12">
+					<div class="col-md-12">
 						<div class="text-center">
 							<div class="eTimer"></div>
 						</div>
-					</div> -->
+					</div>
 
 
 				</div>
@@ -351,7 +351,7 @@
 					
 					<div class="col-md-12">
 						<div class="action-btn text-center mt-5">
-							<button type="button" class="btn btn-primary btn-lg btn-rounded" data-toggle="modal" data-target="#exampleModal">Забронировать</button>
+							<button type="button" class="btn btn-primary btn-lg btn-rounded" data-toggle="modal" data-target="#akvaModal">Забронировать</button>
 						</div>
 					</div>
 
@@ -405,12 +405,16 @@
 
 
 
+
+
+
+
 		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal fade" id="akvaModal" tabindex="-1" role="dialog" aria-labelledby="akvaModal" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content text-center">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Забронировать день свадьбы</h5>
+						<h5 class="modal-title" id="akvaModal">Забронировать день свадьбы</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
@@ -420,16 +424,32 @@
 
 						<form>
 							<div class="form-group">
-								<input type="name" class="form-control" id="nameForm" placeholder="Ваше имя" required>
+								<input type="text" name="username" class="form-control" id="action-name" placeholder="Ваше имя" required aria-invalid="false">
 							</div>
 							<div class="form-group">
-								<input type="tel" class="form-control" id="phoneForm" placeholder="+7(___)-___-__-__" required>
+								<input type="tel" name="phone" class="form-control" id="modal-phone" placeholder="+7 (___) ___-__-__" aria-label="tel" aria-describedby="modal-phone" required="" aria-invalid="false">
 							</div>
+
+
+            <div class="form-group">
+                <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                	<label for="date" class="date-label">Дата:</label>
+                    <input type="date" class="form-control" id="date" name="date" placeholder="Дата" required>
+                    <!-- <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                    </div> -->
+                </div>
+            </div>
+
+
 							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="checkForm">
+								<input type="checkbox" class="form-check-input" id="modal-checkbox" required>
 								<label class="form-check-label" for="checkForm">Я согласен(а) на обработку своих персональных данных</label>
 							</div>
-							<button type="button" class="btn btn-primary btn-lg btn-rounded" data-toggle="modal" data-target="#exampleModal">Забронировать</button>
+
+							<!-- <button type="submit" class="main-btn main-btn-color main-btn-lg col-12">Забронировать</button> -->
+
+							<button type="submit" class="btn btn-primary btn-lg btn-rounded">Забронировать</button>
 						</form>
 
 					</div>
@@ -457,8 +477,10 @@
 <script src="libs/jquery-3.3.1/dist/jquery.min.js"></script>
 <!-- <script src="libs/popper/popper.min.js"></script> -->
 <script src="libs/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+
+
 <!-- <script type="text/javascript" src="libs/mdboostrap/js/mdb.min.js"></script> -->
-<!-- <script src="https://e-timer.ru/js/etimer.js"></script> -->
+<script src="https://e-timer.ru/js/etimer.js"></script>
 
 <!-- <script src="libs/fancybox-2.1.15/jquery.fancybox.pack.js"></script> -->
 <script src="libs/fancybox-3/jquery.fancybox.min.js"></script>

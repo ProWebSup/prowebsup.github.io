@@ -17,7 +17,7 @@
 
 .header {
   padding: 50px 0 30px 0;
-  background-image: url(../../img/header/header-min.jpg);
+  background-image: url(../img/header/header-min.jpg);
   background-repeat: no-repeat;
   height: 100%;
   min-height: 500px;
@@ -38,7 +38,7 @@
   height: 100%;
   display: block;
   z-index: 0;
-  background-color: rgba(120, 51, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.7); }
 
 .header-title p {
   font-size: 26px; }
@@ -61,7 +61,7 @@
 
 .action {
   padding: 70px 0 15px 0;
-  background-image: url(../../img/action/action-bg-min.jpg);
+  background-image: url(../img/action/action-bg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
@@ -83,7 +83,7 @@
   height: 100%;
   display: block;
   z-index: 0;
-  background-color: rgba(120, 51, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.7); }
 
 .action p {
   font-size: 26px;
@@ -163,3 +163,15 @@ input, textarea {
   background-color: #ffcc33 !important;
   border-color: #ffcc33 !important;
   box-shadow: 0 0 0 0.2rem rgba(255, 204, 51, 0.5) !important; }
+
+.modal .form-check-label {
+  font-size: 14px;
+  font-weight: bold; }
+
+.modal .modal-header {
+  background-color: #cc9900;
+  color: #fff; }
+
+.modal .form-group .date-label {
+  margin-top: 5px;
+  margin-right: 3px; }

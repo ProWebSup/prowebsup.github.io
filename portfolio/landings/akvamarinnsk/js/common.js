@@ -21,9 +21,9 @@ $(function() {
   // });
 
 
-$(".eTimer").eTimer({
-      etType: 0, etDate: "19.06.2020.0.0", etTitleText: "До открытия гостиницы осталось:", etTitleSize: 20, etShowSign: 1, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#a3a3a3", etPaddingTB: 15, etPaddingLR: 15, etBackground: "white", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 10px 0px white", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 35, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#ffcc33", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
-    });
+  $(".eTimer").eTimer({
+    etType: 0, etDate: "19.06.2020.0.0", etTitleText: "До открытия гостиницы осталось:", etTitleSize: 20, etShowSign: 1, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#a3a3a3", etPaddingTB: 15, etPaddingLR: 15, etBackground: "white", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 10px 0px white", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 35, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#ffcc33", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+  });
 
 
 // var scrolled;
@@ -55,6 +55,31 @@ $(".eTimer").eTimer({
 
 // $(".fancybox").fancybox();
 
+$().fancybox();
+
+
+
+// $('#datetimepicker1').datetimepicker({
+//   format: 'L'
+// });
+
+// $('#datetimepicker1').datetimepicker({
+//  i18n:{
+//   ru:{
+//    months:[
+//    'Январь','Ферваль','März','April',
+//    'Mai','Juni','Juli','August',
+//    'September','Oktober','November','Dezember',
+//    ],
+//    dayOfWeek:[
+//    "So.", "Mo", "Di", "Mi", 
+//    "Do", "Fr", "Sa.",
+//    ]
+//  }
+// },
+// timepicker:false,
+// format:'d.m.Y'
+// });
 
 /*---Resize Height---*/
   // function height_Detect() {
@@ -83,31 +108,15 @@ $(".eTimer").eTimer({
   // new WOW().init();
 
 
-  $(".main-header input, select, textarea").jqBootstrapValidation();
-  $(".main-header input,select,textarea").not("[type=submit]").jqBootstrapValidation();
+  // $(".modal .modal-body .form-group input, select, textarea").jqBootstrapValidation();
+  $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
   
 
-  $("#headerCall").mask("+7 (999) 999-99-99");
-   $("#actionPhonel").mask("+7 (999) 999-99-99");
+  $("#phoneForm").mask("+7 (999) 999-99-99");
+   // $("#actionPhonel").mask("+7 (999) 999-99-99");
   // $("#yourtelabout").mask("+7 (999) 999-99-99");
 
 
 
 
 });
-
-
-
-// $(".main-testimonials .fancybox").fancybox();
-
-
-
-
-
-/*---Preloader---*/
-// $(window).on('load', function() { 
-//   $(".loader_inner").fadeOut(); 
-//   $(".loader").delay(400).fadeOut("slow"); 
-// });
-
-/*---End Preloader---*/
