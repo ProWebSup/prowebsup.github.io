@@ -5,179 +5,239 @@
 
 
 
- 
+
 /* lg-размер (<=1199px) */
 @media (max-width: 1199px) {
   /* CSS для ширины от 992px до 1199px */
 
-.main-services .owl-nav .owl-prev{
-  left: 120px !important
-}
-
-.main-services .owl-nav .owl-next{
-  right: 120px !important
-}
-
-.main-services {
-  background-image: none !important;
-  padding: 20px 0 20px 0 !important;
 }
 
 
-.main-about {
-  background-image: none !important;
-  padding: 20px 0 20px 0 !important;
-}
-
-
-.main-features {
-  background-image: none !important;
-  padding: 20px 0 20px 0 !important;
-}
-
-
-
-.main-about .about-2 {
-  left: 45px !important;
-}
-
-
-}
-
- 
 /* md-размер (<=991px) */
 @media (max-width: 991px) {
   /* CSS для ширины от 768px до 991px */
 
+  .header-title h1 {
+    font-size: 32px !important;
+  }
+
+
+  .header-title p {
+    font-size: 22px !important;
+  }
+
+
+  .header-item h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .header-item p {
+    font-size: 18px !important;
+    /*text-align: center;*/
+  }
+
+  .header .col-md-6 {
+    margin-top: 0 !important;
+  }
 
 
 }
- 
+
 /* sm-размер (<=768px) */
 @media (max-width: 767px) { 
   /* CSS для ширины от 576px до 767px */
 
-.main-services .owl-nav .owl-prev{
-  left: 30px !important
+  .header-title h1 {
+    font-size: 30px !important;
+  }
+
+
+  .header-title p {
+    font-size: 20px !important;
+  }
+
+
+  .header-item h2 {
+    font-size: 24px;
+    /*text-align: center;*/
+  }
+
+  .header-item p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .header .col-md-6 {
+    margin-top: 0 !important;
+  }
+
+
+  .action {
+    padding: 20px 0 0 0 !important;
+    min-height: 280px !important;
+  }
+
+  .action h2 {
+    font-size: 24px !important;
+  }
+
+  .action p {
+    font-size: 16px !important;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+
+
 }
 
-.main-services .owl-nav .owl-next{
-  right: 30px !important
-}
-
-.main-services {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-.main-about {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-.main-features {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-}
- 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
   /* CSS для ширины до 575px (включительно) */
 
-.main-services .owl-nav .owl-prev{
-  left: 40px !important
-}
 
-.main-services .owl-nav .owl-next{
-  right: 40px !important
-}
+  .header-title h1 {
+    font-size: 30px !important;
+  }
 
 
-.main-services {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
+  .header-title p {
+    font-size: 22px !important;
+  }
 
 
-.main-about {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
+  .header-item h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .header-item p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .header .col-md-6 {
+    margin-top: 0 !important;
+  }
 
 
-.main-features {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
+  .action {
+    padding: 20px 0 0 0 !important;
+    min-height: 300px !important;
+  }
 
-}
+  .action h2 {
+    font-size: 24px !important;
+  }
 
-
-@media (max-width: 320px) {
-
-.main-services .owl-nav .owl-prev{
-  left: 0px !important
-}
-
-.main-services .owl-nav .owl-next{
-  right: 0px !important
-}
-
-.main-services {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-.main-about {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-.main-features {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
+  .action p {
+    font-size: 16px !important;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
 
 }
 
 
 @media (max-width: 480px) {
 
-.main-services .owl-nav .owl-prev{
-  left: 20px !important
+  .header-title h1 {
+    font-size: 26px !important;
+  }
+
+
+  .header-title p {
+    font-size: 18px !important;
+  }
+
+
+  .header-item h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .header-item p {
+    font-size: 14px !important;
+    text-align: center;
+  }
+
+  .header .col-md-6 {
+    margin-top: 0 !important;
+  }
+
+
+  .action {
+    padding: 20px 0 10px 0 !important;
+    min-height: 320px !important;
+  }
+
+  .action h2 {
+    font-size: 24px !important;
+  }
+
+  .action p {
+    font-size: 18px !important;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+
+
+
 }
 
-.main-services .owl-nav .owl-next{
-  right: 20px !important
+
+@media (max-width: 320px) {
+
+
+  .header {
+    padding: 0 0 30px 0 !important;
+  }
+
+  .header-title h1 {
+    font-size: 26px !important;
+  }
+
+
+  .header-title p {
+    font-size: 18px !important;
+  }
+
+
+  .header-item h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .header-item p {
+    font-size: 14px !important;
+    text-align: center;
+  }
+
+  .header .col-md-6 {
+    margin-top: 0 !important;
+  }
+
+
+  .action {
+    padding: 20px 0 10px 0 !important;
+    min-height: 320px !important;
+  }
+
+  .action h2 {
+    font-size: 22px !important;
+  }
+
+  .action p {
+    font-size: 14px !important;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+
+
 }
 
 
 
-.main-services {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-.main-about {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-.main-features {
-  background-image: none !important;
-  padding: 30px 0 30px 0 !important;
-}
-
-
-}
 
 
 
@@ -189,22 +249,22 @@
 @media (max-width: 575px) {
 
 }
- 
+
 /* sm (>=576 и <=767) */
 @media (min-width: 576px) and (max-width: 767px) {
 
 }
- 
+
 /* md (>=768 и <=991) */
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
- 
+
 /* lg (>=992 и <=1199) */
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
- 
+
 /* xl (>=1200) */
 @media (min-width: 1200px) {
 
