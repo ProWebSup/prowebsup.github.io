@@ -9,6 +9,7 @@
 
 ::selection {
   background-color: #ffff99;
+  color: #663300;
 }
 
 .navbar .navbar-title p {
@@ -72,7 +73,7 @@
 
 .action {
   padding: 70px 0 15px 0;
-  background-image: url(../../img/action/action-bg-min.jpg);
+  background-image: url(../img/action/action-bg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
