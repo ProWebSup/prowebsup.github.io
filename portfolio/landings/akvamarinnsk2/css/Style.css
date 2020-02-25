@@ -1,0 +1,40 @@
+	@media screen and (max-width: 1200px){ 
+	
+	.header__menu menu row{
+		font-size: 14px;
+	}
+	.menu__link {
+	    
+	    margin-right: 5px;
+	}
+	.phone{
+	    font-size: 14px;
+	}
+
+}
+
+	#slide7 div ul li{
+	    
+	    margin-top: 20px;
+
+	}
+	.menu{
+	    font-size: 14px;
+	}
+
+.quiz{
+    background: f1f1f1;
+    
+}
+	
+.actions ul{
+    
+    text-align: right;
+    
+}
+.actions ul li{
+     display: inline-block;
+     margin-top: 40px;
+     	    margin-left: 5px;
+
+}
