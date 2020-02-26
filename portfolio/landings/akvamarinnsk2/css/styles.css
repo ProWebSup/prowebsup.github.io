@@ -51,11 +51,34 @@
   font-size: 26px; }
 
 .header-item p {
-  font-size: 22px; }
+  font-size: 20px; }
 
 
 .header-btn {
   text-align: center !important;
+}
+
+
+.card {
+  color: #663300 !important;
+  /*padding: 15px;*/
+  text-align: center;
+}
+.card-title {
+  padding: 10px 5px 10px 5px;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+.card-desc {
+  padding: 10px;
+}
+
+.card p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 0;
+  text-align: center;
 }
 
 .photos-halls {
@@ -72,7 +95,7 @@
   font-weight: bold; }
 
 .action {
-  padding: 70px 0 15px 0;
+  padding: 30px 0 60px 0;
   background-image: url(../img/action/action-bg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -98,11 +121,17 @@
   background-color: rgba(0, 0, 0, 0.7); }
 
 
+.contacts {
+    padding: 60px 0;
+    background-image: url(../img/advantage/advantage_bg.jpg);
+    position: relative
+}
+
 
 
 .action p {
-  font-size: 26px;
-  letter-spacing: 10px; }
+  font-size: 20px;
+ }
 
 .contacts {
   padding: 30px 0 30px 0;
@@ -121,17 +150,17 @@ body {
 
 a {
   color: #eadbd4;
-  -webkit-transition: all 0.7s ease;
+  /*-webkit-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
-  transition: all 0.7s ease; }
+  transition: all 0.7s ease;*/ }
   a:hover {
     color: #ffcc33;
     text-decoration: none;
-    -webkit-transition: all 0.7s ease;
+    /*-webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
-    transition: all 0.7s ease; }
+    transition: all 0.7s ease;*/ }
 
 textarea:focus,
 input[type="text"]:focus,
@@ -204,5 +233,5 @@ input, textarea {
 
 
 .contacts {
-  padding: 0 !important;
+  padding: 15px 0 15px 0 !important;
 }

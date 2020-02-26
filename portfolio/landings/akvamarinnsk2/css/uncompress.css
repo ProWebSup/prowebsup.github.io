@@ -7409,7 +7409,8 @@ body textarea:required:valid {
 }
 
 .header__description {
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
     line-height: 1;
     margin-bottom: 0
 }
@@ -8128,12 +8129,18 @@ input:checked+.quiz__input .underline-link {
 .menu__link {
     display: inline;
     margin-right: 1rem;
+    margin-left: 1rem;
     font-weight: 700;
     color: inherit
 }
 
 .menu__link a {
-    color: inherit
+    color: inherit;
+    text-decoration: underline;
+}
+
+.menu__link a:hover {
+    text-decoration: underline !important;
 }
 
 .form {
