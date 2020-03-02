@@ -40,7 +40,7 @@ $(document).ready(function() {
   // $(".modal .modal-body .form-group input, select, textarea").jqBootstrapValidation();
   $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
   
-
+  $("#modal-phone").mask("+7 (999) 999-99-99");
   $("#header-phone").mask("+7 (999) 999-99-99");
   $("#action-phone").mask("+7 (999) 999-99-99");
    // $("#actionPhonel").mask("+7 (999) 999-99-99");
