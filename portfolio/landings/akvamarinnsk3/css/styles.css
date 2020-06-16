@@ -251,3 +251,24 @@ input, textarea {
 .contacts {
   padding: 15px 0 15px 0 !important;
 }
+
+
+.dopuslugi {
+  padding: 50px 0 50px 0;
+  /*color: #fff !important;*/
+  text-align: center;
+}
+
+.dopuslugi h2 {
+   color: #fff !important;
+}
+
+.dopuslugi-text p {
+  color: #fff;
+  font-size: 24px;
+}
+
+/*.dopuslugi-text .star {
+  color: red;
+  font-size: 30px;
+}*/
